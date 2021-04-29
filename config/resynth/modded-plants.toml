@@ -6,12 +6,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-organic-ore = 7.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -23,15 +23,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-ore = 7.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-mekanism-tin.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -68,12 +68,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-organic-ore = 8.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -85,15 +85,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-ore = 8.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-immersiveengineering-nickel.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -130,12 +130,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-organic-ore = 8.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -147,15 +147,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-ore = 8.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-immersiveengineering-silver.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -192,12 +192,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-organic-ore = 4.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -209,15 +209,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-ore = 4.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-immersiveengineering-uranium.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -254,12 +254,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-organic-ore = 8.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -271,15 +271,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-ore = 8.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-immersiveengineering-lead.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -316,12 +316,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-organic-ore = 6.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -333,15 +333,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-ore = 6.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-mekanism-osmium.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -378,12 +378,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-organic-ore = 7.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -395,15 +395,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-ore = 7.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-mekanism-copper.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -440,12 +440,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-organic-ore = 6.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -457,15 +457,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-ore = 6.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-immersiveengineering-aluminium.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -502,12 +502,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-organic-ore = 7.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -519,15 +519,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-ore = 7.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-immersiveengineering-copper.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace

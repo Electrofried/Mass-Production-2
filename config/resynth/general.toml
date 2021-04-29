@@ -96,7 +96,7 @@
 	#seed when broken. This can be useful for players playing on peaceful mode who can
 	#otherwise not get mob drops
 	#(type=boolean, default=false)
-	enable-drops-from-seed-pod = false
+	enable-drops-from-seed-pod = true
 
 [calvinite]
 
@@ -114,7 +114,7 @@
 		#Allows enabling or disabling generating the ore block in the world.
 		#Set this to false to prevent the ore block from spawning in the world
 		#(type=boolean, default=true)
-		generate = true
+		generate = false
 		#The average size of the ore veins. Set this number
 		#higher to increase the amount of ore blocks in an ore vein.
 		#(type=integer, min=1, max=64, default=4)
@@ -129,7 +129,7 @@
 	#to mined or otherwise obtained from the world.
 	#Enable this config option if the ores/resources are not generating naturally, or if the resources cannot otherwise be obtained.
 	#(type=boolean, default=false)
-	enable-core-resource-recipes = false
+	enable-core-resource-recipes = true
 	#Enables features related to debugging and development.
 	#It's unlikely you'd want to enable this.
 	#(type=boolean, default=false)
@@ -168,7 +168,7 @@
 	#Including usage and error reports (all sent reports are anonymous).
 	#False to disable, true to enable.
 	#(type=boolean, default=true)
-	enable-analytics = true
+	enable-analytics = false
 	#All Crystalline type plants and plant sets offer the ability to directly craft
 	#the resource grown by this plant by placing the plants seeds in a crafting table.
 	#This option is available if you wish to be able turn seeds mined from ores into the
@@ -193,7 +193,7 @@
 		#Allows enabling or disabling generating the ore block in the world.
 		#Set this to false to prevent the ore block from spawning in the world
 		#(type=boolean, default=true)
-		generate = true
+		generate = false
 		#The average size of the ore veins. Set this number
 		#higher to increase the amount of ore blocks in an ore vein.
 		#(type=integer, min=1, max=64, default=3)
@@ -205,7 +205,7 @@
 	#cause Mineral Rocks to be lost when breaking Mineral Soil blocks with a high/full Mineral
 	#Content.
 	#(type=double, min=0.1, max=50.0, default=1.0)
-	mineral-rock-worth = 1.0
+	mineral-rock-worth = 10.0
 	#When enabled, a chat message containing the Mineral Content of
 	#the Mineral Soil block will be displayed, when adding Mineral Rocks
 	#to the block
@@ -214,5 +214,5 @@
 	#The initial/starting Mineral Content of every Mineral Soil block when it's
 	#first placed/created.
 	#(type=double, min=0.1, max=50.0, default=1.0)
-	initial-mineral-content = 1.0
+	initial-mineral-content = 10.0
 

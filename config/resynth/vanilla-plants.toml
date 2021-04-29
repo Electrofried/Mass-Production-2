@@ -196,12 +196,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-organic-ore = 5.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -213,15 +213,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-ore = 5.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-gold.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -258,12 +258,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=10.0)
-	seed-spawn-chance-from-organic-ore = 10.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -275,15 +275,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=10.0)
-	seed-spawn-chance-from-ore = 10.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-clay.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -320,12 +320,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-organic-ore = 4.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -337,15 +337,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-ore = 4.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-stone.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -380,13 +380,13 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-mob = 2.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
@@ -404,12 +404,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-nautilus_shell.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -446,12 +446,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-organic-ore = 3.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -463,15 +463,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-ore = 4.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-netherrack.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -506,7 +506,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -518,7 +518,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-bulb = 5.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -530,12 +530,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-shulker_shell.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -570,7 +570,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -582,7 +582,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-bulb = 2.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -594,12 +594,12 @@
 	number-of-produce-drops = 2
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-ink_sac.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -634,7 +634,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -646,7 +646,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-bulb = 6.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -663,7 +663,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-ender_pearl.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -698,7 +698,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -710,7 +710,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-bulb = 4.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -727,7 +727,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-nether_star.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -768,12 +768,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=50.0)
-	seed-spawn-chance-from-shard = 50.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -792,12 +792,12 @@
 	seed-spawn-chance-from-ore = 0.5
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-coal.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -834,12 +834,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-organic-ore = 3.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -851,15 +851,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-granite.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -900,12 +900,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=25.0)
-	seed-spawn-chance-from-shard = 25.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -921,15 +921,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=1.2999999523162842)
-	seed-spawn-chance-from-ore = 1.2999999523162842
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-diamond.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -970,12 +970,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=25.0)
-	seed-spawn-chance-from-shard = 25.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -991,15 +991,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-quartz.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1040,12 +1040,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=75.0)
-	seed-spawn-chance-from-shard = 75.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1061,15 +1061,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=1.0)
-	seed-spawn-chance-from-ore = 1.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-redstone.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1104,7 +1104,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -1116,7 +1116,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-bulb = 3.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1128,12 +1128,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-ghast_tear.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1170,7 +1170,7 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-organic-ore = 3.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
@@ -1187,15 +1187,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-gravel.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1236,12 +1236,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=30.0)
-	seed-spawn-chance-from-shard = 30.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1257,15 +1257,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-glowstone.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1300,7 +1300,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -1312,7 +1312,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-bulb = 5.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1324,12 +1324,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-prismarine_crystal.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1370,12 +1370,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=25.0)
-	seed-spawn-chance-from-shard = 25.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1391,15 +1391,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=1.5)
-	seed-spawn-chance-from-ore = 1.5
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-emerald.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1436,12 +1436,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-organic-ore = 8.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1453,15 +1453,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-ore = 4.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-ancient_debris.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1496,7 +1496,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -1508,7 +1508,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=0.5)
-	seed-spawn-chance-from-bulb = 0.5
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1520,12 +1520,12 @@
 	number-of-produce-drops = 2
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-experience_bottle.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1562,12 +1562,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-organic-ore = 3.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1579,15 +1579,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-sand.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1628,12 +1628,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=30.0)
-	seed-spawn-chance-from-shard = 30.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1649,15 +1649,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-ore = 5.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-mineral_rock.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1692,19 +1692,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=8.0)
-	seed-spawn-chance-from-mob = 8.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-bulb = 6.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1716,12 +1716,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-blaze_rod.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1756,19 +1756,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-mob = 4.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-bulb = 4.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1780,12 +1780,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-leather.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1820,19 +1820,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-mob = 5.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-bulb = 3.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1844,12 +1844,12 @@
 	number-of-produce-drops = 2
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-slime_ball.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1884,19 +1884,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-mob = 7.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-bulb = 5.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1908,12 +1908,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-prismarine_shard.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -1950,12 +1950,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-organic-ore = 4.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -1967,15 +1967,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-ore = 4.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-end_stone.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2010,19 +2010,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-mob = 5.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-bulb = 3.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2034,12 +2034,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-spider_eye.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2074,19 +2074,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=14.0)
-	seed-spawn-chance-from-mob = 14.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=12.0)
-	seed-spawn-chance-from-bulb = 12.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2098,12 +2098,12 @@
 	number-of-produce-drops = 2
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-rotten_flesh.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2144,12 +2144,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=50.0)
-	seed-spawn-chance-from-shard = 50.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2165,15 +2165,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-ore = 2.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-lapis_lazuli.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2210,7 +2210,7 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-organic-ore = 3.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
@@ -2227,15 +2227,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-andesite.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2270,19 +2270,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=10.0)
-	seed-spawn-chance-from-mob = 10.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-bulb = 5.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2294,12 +2294,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-rabbit_foot.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2336,12 +2336,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-organic-ore = 2.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2353,15 +2353,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-ore = 2.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-cobblestone.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2396,19 +2396,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-mob = 5.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-bulb = 3.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2420,12 +2420,12 @@
 	number-of-produce-drops = 2
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-bone.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2466,12 +2466,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=4.0)
-	seed-spawn-chance-from-shard = 4.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2487,15 +2487,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-ore = 2.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-cookie.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2532,12 +2532,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-organic-ore = 6.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2549,15 +2549,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=6.0)
-	seed-spawn-chance-from-ore = 6.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-iron.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2592,7 +2592,7 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
@@ -2604,7 +2604,7 @@
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=10.0)
-	seed-spawn-chance-from-bulb = 10.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2616,12 +2616,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-dragons_breath.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2662,12 +2662,12 @@
 	#Set this to 0 to prevent seed spawning from shards.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=10.0)
-	seed-spawn-chance-from-shard = 10.0
+	seed-spawn-chance-from-shard = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2683,15 +2683,15 @@
 	#prevent the seeds from spawning when mining the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-ore = 2.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-calvinite_crystal.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2728,12 +2728,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-organic-ore = 3.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2745,15 +2745,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=3.0)
-	seed-spawn-chance-from-ore = 3.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-diorite.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2788,19 +2788,19 @@
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) that this plant types seed will spawn
 	#when the mob that normally drops the final resource is killed.
 	#Set this to 0 to prevent the seeds from spawning when the mob is killed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=7.0)
-	seed-spawn-chance-from-mob = 7.0
+	seed-spawn-chance-from-mob = 0.0
 	#The chance (percentage) that this plant types seed will spawn
 	#when the plants produce (bulb) is smashed.
 	#Set this to 0 to prevent the seeds from spawning when the bulb is smashed.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=5.0)
-	seed-spawn-chance-from-bulb = 5.0
+	seed-spawn-chance-from-bulb = 0.0
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2812,12 +2812,12 @@
 	number-of-produce-drops = 1
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-gunpowder.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
@@ -2854,12 +2854,12 @@
 	#up the plant produce blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-organic-ore = 2.0
+	seed-spawn-chance-from-organic-ore = 0.0
 	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-seed-drops = false
+	use-configuration-values-for-seed-drops = true
 	#The chance (percentage) this plant type will grow on a random tick.
 	#Increase this number to increase the growth rate of the plant,
 	#decrease it to decrease the growth rate of the plant.
@@ -2871,15 +2871,15 @@
 	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
 	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
 	#(type=double, min=0.0, max=100.0, default=2.0)
-	seed-spawn-chance-from-ore = 2.0
+	seed-spawn-chance-from-ore = 0.0
 	#Set this to true to allow using bonemeal on this specific plant type.
 	#(type=boolean, default=false)
-	enable-bonemeal = false
+	enable-bonemeal = true
 	#Prevents the configuration value for 'chance-to-grow' from being used
 	#forcing the default value to be used instead, when this is 'false'.
 	#You must set this to 'true' before the 'chance-to-grow' config value will work!
 	#(type=boolean, default=false)
-	use-configuration-values-for-growth = false
+	use-configuration-values-for-growth = true
 
 	[plant-set-dirt.produce-smelting]
 		#The amount of xp (experience) a player will get from a furnace
