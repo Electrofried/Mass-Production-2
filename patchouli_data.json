@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "delivery:manual": {
+      "viewedEntries": [
+        "delivery:getting_started/groups"
+      ],
+      "bookmarks": [],
+      "history": [
+        "delivery:getting_started/groups"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

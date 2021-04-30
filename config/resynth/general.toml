@@ -91,12 +91,12 @@
 	#Allows enabling or disabling the generating of Mystical Seed Pods in the world.
 	#Set this to false to prevent Mystical Seed Pods from generating in the world.
 	#(type=boolean, default=true)
-	generate-in-world = true
+	generate-in-world = false
 	#Set to true to make the Mystical Seed Pod drop a random Biochemical (mob drop)
 	#seed when broken. This can be useful for players playing on peaceful mode who can
 	#otherwise not get mob drops
 	#(type=boolean, default=false)
-	enable-drops-from-seed-pod = true
+	enable-drops-from-seed-pod = false
 
 [calvinite]
 
